@@ -17,7 +17,7 @@ color='green', ecolor='black')
 ax.set_yticks(y_pos)
 ax.set_yticklabels(people)
 ax.invert_yaxis()  # labels read top-to-bottom
-ax.set_xlabel('Performance')
+ax.set_xlabel('Performance rest')
 ax.set_title('How fast do you want to go today?')
 plt.show()
  
