@@ -36,7 +36,7 @@ clf.fit(x_train, y_train)
 pred = clf.predict(x_test)
 print(pred)
 print(y_test)
-print((accuracy_score(pred, y_test))*100) #prediction accuracy
+print((accuracy_score(pred, y_test))*100) # accuracy
 
 
  
